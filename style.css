@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Styling*/
+
+/*Body*/
+
+body {
+  background-image: url("img/brick_wall.jpg");
+	background-repeat: repeat-y;
+	background-size: contain;
+}
+
+
+/* Header*/
+
+.mainHeader {
+	max-width: 100%;
+}
+
+/* Title Styling */
+
+.mainTitle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Work Sans', sans-serif;
+  font-size: 9vw;
+  letter-spacing: 1vw;
+  text-align: center;
+	padding: 0px 1vw;
+}
+
+/* "Your" Color and Text-Shadow */
+
+.mainTitle1 {
+  color: #CAECFF;
+  text-shadow: 0 0 .8vw #fff,
+               0 0 1.5vw #fff,
+               0 0 2.3vw #fff,
+               0 0 3.1vw #CAECFF,
+               0 0 5.5vw #CAECFF,
+               0 0 6.3vw #CAECFF,
+               0 0 7.8vw #8DD6FF,
+               0 0 11.7vw #8DD6FF,
+							 0 0 19.4vw #8DD6FF;
+}
+
+/* "Band" Color and Text-Shadow */
+
+.mainTitle2 {
+ color: #CAECFF;
+ text-shadow: 0 0 .8vw #fff,
+               0 0 1.5vw #fff,
+               0 0 2.3vw #fff,
+               0 0 3.1vw #CAECFF,
+               0 0 5.5vw #CAECFF,
+               0 0 6.3vw #CAECFF,
+               0 0 7.8vw #8DD6FF,
+               0 0 11.7vw #8DD6FF,
+							 0 0 19.4vw #8DD6FF;
+}
+
+/* "S-CKS" Color and Text-Shadow*/
+
+.mainTitle3 {
+
+  color: #E8BCEE;
+  text-shadow: 0 0 .8vw #fff,
+               0 0 1.5vw #fff,
+               0 0 2.3vw #fff,
+               0 0 3.1vw #E8BCEE,
+               0 0 5.5vw #E8BCEE,
+               0 0 6.3vw #E8BCEE,
+               0 0 7.8vw #E8D8EE,
+               0 0 11.7vw #E8D8EE,
+							 0 0 19.4vw #E8D8EE;
+}
+
+/* "U" Color, Text-Shadow, and Animation */
+
+.mainTitle4 {
+  -webkit-animation: flicker 4s infinite;
+  color: #E8BCEE;
+  text-shadow: 0 0 .8vw #fff,
+               0 0 1.5vw #fff,
+               0 0 2.3vw #fff,
+               0 0 3.1vw #E8BCEE,
+               0 0 5.5vw #E8BCEE,
+               0 0 6.3vw #E8BCEE,
+               0 0 7.8vw #E8D8EE,
+               0 0 11.7vw #E8D8EE;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+/* NavBar Styling */
+
+.mainNav {
+	padding: 0vw 7.8vw;
+
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+
+}
+
+a {
+	font-weight: bold;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 1.75vw;
+
+}
+
+a:hover {
+  text-shadow: 0 0 .8vw #fff,
+               0 0 1.5vw #fff,
+               0 0 2.3vw #fff,
+               0 0 3.1vw #fff,
+               0 0 5.5vw #E7E879,
+               0 0 6.3vw #E7E879,
+               0 0 7.8vw #E4E8C1,
+               0 0 11.7vw #E4E8C1;
+}
+
+/*Main*/
+
+.welcome {
+		font-family: 'Codystar', cursive;
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+    padding-top: 7.8vw;
+    letter-spacing: 1.5vw;
+    text-shadow: 0 0 .8vw #fff,
+	               0 0 1.5vw #fff,
+	               0 0 2.3vw #fff,
+	               0 0 3.1vw #fff,
+	               0 0 5.5vw #E7E879,
+	               0 0 6.3vw #E7E879,
+	               0 0 7.8vw #E4E8C1,
+	               0 0 11.7vw #E4E8C1;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+  color: #fff;
+  font-size: 1.75vw;
+	padding: 0vw 7.8vw 7.8vw 7.8vw;
+	line-height: 2.5vw;
+	letter-spacing: .2vw;
+}
+
+/*Images*/
+
+.album {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 1vw;
+	padding: 7.8vw 0vw;
+}
+
+#welcomeImg {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#welcomeImg img {
+	width: 40%;
+	height: 40%;
+}
+
+.bandImg {
+	width: 80%;
+	height: auto;
+	opacity: .9;
+	border: .04 #fff solid;
+	border-radius: 1.6vw;
+	box-shadow:  0 0 .8vw #fff,
+							 0 0 1.5vw #fff,
+							 0 0 2.3vw #fff,
+							 0 0 3.1vw #fff,
+							 0 0 5.5vw #E7E879,
+							 0 0 6.3vw #E7E879;
+	margin: 4vw;
+}
+
+/*Footer*/
+
+footer {
+	text-align: center;
+}
+
+footer h6 {
+	font-family: 'Work Sans', sans-serif;
+	color: #fff;
+	font-size: 1vw;
+	padding: 1vw 0vw;
+
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:450px) {
+	.album {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		padding: 7.8vw 0vw;
+	}
+
+	.about {
+		font-family: 'Roboto', sans-serif;
+	  font-size: 2.5vw;
+		font-weight: 100;
+	}
+
+	a {
+		font-family: 'Roboto', sans-serif;
+		font-size: 2.5vw;
+		font-weight: 100;
+	}
+
+	footer h6 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 2vw;
+		font-weight: 100;
+
+	.bandImg {
+		width: 50%;
+		height: auto;
+		margin: 4vw;
+	}
+}
