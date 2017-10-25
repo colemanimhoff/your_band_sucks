@@ -186,19 +186,20 @@ a:hover {
 /*Main*/
 
 .welcome {
-	font-family: 'Codystar', cursive;
+  font-family: 'Codystar', cursive;
   font-size: 6vw;
   color: #fff;
   text-align: center;
   letter-spacing: 1.5vw;
-  text-shadow: 0 0 .8vw #fff,
-	             0 0 1.5vw #fff,
-	             0 0 2.3vw #fff,
-	             0 0 3.1vw #fff,
-	             0 0 5.5vw #E7E879,
-               0 0 6.3vw #E7E879,
-               0 0 7.8vw #E4E8C1,
-	             0 0 11.7vw #E4E8C1;
+  text-shadow: 
+	  0 0 .8vw #fff,
+	  0 0 1.5vw #fff,
+	  0 0 2.3vw #fff,
+	  0 0 3.1vw #fff,
+	  0 0 5.5vw #E7E879,
+          0 0 6.3vw #E7E879,
+          0 0 7.8vw #E4E8C1,
+	  0 0 11.7vw #E4E8C1;
 }
 
 .about {
@@ -207,8 +208,8 @@ a:hover {
 	justify-content: center;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 100;
-  color: #fff;
-  font-size: 1.75vw;
+  	color: #fff;
+  	font-size: 1.75vw;
 	padding: 0vw 7.8vw 7.8vw 7.8vw;
 	line-height: 2.5vw;
 	letter-spacing: .2vw;
@@ -275,12 +276,16 @@ footer h6 {
 		align-items: center;
 		padding: 7.8vw 0vw;
 	}
+	
+	.welcome {
+		font-size: 8vw;
+	}
 
 	.about {
 		font-family: 'Roboto', sans-serif;
 	  font-size: 3vw;
 		font-weight: 100;
-		line-height: 6vw;
+		line-height: 7vw;
 	}
 
 	a {
