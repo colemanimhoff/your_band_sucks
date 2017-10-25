@@ -278,12 +278,12 @@ footer h6 {
 	}
 	
 	.welcome {
-		font-size: 8vw;
+		font-size: 10vw;
 	}
 
 	.about {
 		font-family: 'Roboto', sans-serif;
-	  font-size: 3vw;
+	  	font-size: 6vw;
 		font-weight: 100;
 		line-height: 7vw;
 	}
