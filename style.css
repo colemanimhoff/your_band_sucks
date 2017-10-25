@@ -267,7 +267,7 @@ footer h6 {
 
 /*Media Queries*/
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
 	.album {
 		display: flex;
 		flex-flow: column;
