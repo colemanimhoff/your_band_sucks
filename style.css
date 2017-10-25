@@ -186,19 +186,19 @@ a:hover {
 /*Main*/
 
 .welcome {
-		font-family: 'Codystar', cursive;
-    font-size: 6vw;
-    color: #fff;
-    text-align: center;
-    letter-spacing: 1.5vw;
-    text-shadow: 0 0 .8vw #fff,
-	               0 0 1.5vw #fff,
-	               0 0 2.3vw #fff,
-	               0 0 3.1vw #fff,
-	               0 0 5.5vw #E7E879,
-	               0 0 6.3vw #E7E879,
-	               0 0 7.8vw #E4E8C1,
-	               0 0 11.7vw #E4E8C1;
+	font-family: 'Codystar', cursive;
+  font-size: 6vw;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1.5vw;
+  text-shadow: 0 0 .8vw #fff,
+	             0 0 1.5vw #fff,
+	             0 0 2.3vw #fff,
+	             0 0 3.1vw #fff,
+	             0 0 5.5vw #E7E879,
+               0 0 6.3vw #E7E879,
+               0 0 7.8vw #E4E8C1,
+	             0 0 11.7vw #E4E8C1;
 }
 
 .about {
@@ -267,6 +267,7 @@ footer h6 {
 
 /*Media Queries*/
 
+
 @media screen and (max-width: 1000px) and (orientation: portrait) {
 	.album {
 		display: flex;
@@ -277,9 +278,9 @@ footer h6 {
 
 	.about {
 		font-family: 'Roboto', sans-serif;
-	  	font-size: 3vw;
+	  font-size: 3vw;
 		font-weight: 100;
-		line-spacing: 2vw;
+		line-height: 2vw;
 	}
 
 	a {
